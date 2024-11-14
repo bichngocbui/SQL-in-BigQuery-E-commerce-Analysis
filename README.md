@@ -14,12 +14,6 @@ This project demonstrates advanced data analysis of e-commerce behavior using Go
 - Detailed product-level analysis including cross-selling patterns
 - Product view to purchase conversion funnel analysis
 - Cohort mapping from product view to add-to-cart to purchase completion
-## Technical Implementation
-The project leverages BigQuery's powerful features including:
-- Complex data structures handling through UNNEST operations
-- Advanced SQL aggregations and window functions
-- Cohort analysis implementation
-- Custom metrics calculations (bounce rates, conversion rates, etc.)
 ## Business Value
 This analysis provides actionable insights for:
 - Marketing channel effectiveness
@@ -42,6 +36,12 @@ Key data access patterns include:
 - Product data: Requires UNNEST(hits) and UNNEST(hits.product)
 - E-commerce actions: Requires UNNEST(hits) to access eCommerceAction
 - Revenue data: Accessed through product.productRevenue after unnesting
+## Technical Implementation
+The project leverages BigQuery's powerful features including:
+- Complex data structures handling through UNNEST operations
+- Advanced SQL aggregations and window functions
+- Cohort analysis implementation
+- Custom metrics calculations (bounce rates, conversion rates, etc.)
 ## Exploring the dataset 
 ### Query 1: Calculate total visit, pageview, transaction for Jan, Feb and March 2017
 #### Syntax 
