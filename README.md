@@ -1,20 +1,6 @@
 # E-commerce Analytics with BigQuery
 ## Project Overview
 This project demonstrates advanced data analysis of e-commerce behavior using Google BigQuery, focusing on user interactions, purchasing patterns, and product performance metrics. The analysis encompasses various aspects of the e-commerce journey, from traffic sources to purchase completion, providing valuable insights for business decision-making.
-## Data access & Structure 
-### Dataset information 
-The analysis utilizes the Google Analytics sample dataset available in BigQuery:
-- Dataset: `bigquery-public-data.google_analytics_sample`
-- Table: ga_sessions_*
-- Time period: 2017
-### Data Schema
-For detailed information about the Google Analytics dataset schema, please refer to the official Google Analytics documentation, available at at https://support.google.com/analytics/answer/3437719?hl=en ↩
-### Data Access Patterns
-Key data access patterns include:
-- Basic session data: Direct access to ga_sessions_* table
-- Product data: Requires UNNEST(hits) and UNNEST(hits.product)
-- E-commerce actions: Requires UNNEST(hits) to access eCommerceAction
-- Revenue data: Accessed through product.productRevenue after unnesting
 ## Key Analysis Areas
 ### Traffic and Engagement Analysis
 - Comprehensive tracking of visits, pageviews, and transactions across different time periods
@@ -42,6 +28,20 @@ This analysis provides actionable insights for:
 - Conversion funnel optimization
 - Customer purchase patterns
 - Revenue optimization opportunities
+## Data access & Structure 
+### Dataset information 
+The analysis utilizes the Google Analytics sample dataset available in BigQuery:
+- Dataset: `bigquery-public-data.google_analytics_sample`
+- Table: ga_sessions_*
+- Time period: 2017
+### Data Schema
+For detailed information about the Google Analytics dataset schema, please refer to the official Google Analytics documentation, available at at https://support.google.com/analytics/answer/3437719?hl=en ↩
+### Data Access Patterns
+Key data access patterns include:
+- Basic session data: Direct access to ga_sessions_* table
+- Product data: Requires UNNEST(hits) and UNNEST(hits.product)
+- E-commerce actions: Requires UNNEST(hits) to access eCommerceAction
+- Revenue data: Accessed through product.productRevenue after unnesting
 ## Exploring the dataset 
 ### Query 1: Calculate total visit, pageview, transaction for Jan, Feb and March 2017
 #### Syntax 
