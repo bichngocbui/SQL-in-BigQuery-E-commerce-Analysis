@@ -57,12 +57,7 @@ GROUP BY month
 ORDER BY month;
 ```
 #### Result
-| month   | visits | pageviews | transactions |
-|---------|--------|-----------|--------------|
-| 201701  | 64694  | 257708    | 713         |
-| 201702  | 62192  | 233373    | 733         |
-| 201703  | 69931  | 259522    | 993         |
-
+![image](https://github.com/user-attachments/assets/c5ed63ed-d9fd-4a9b-be55-27132dc7ee0e)
 This table provides a clear summary of total ___visits, pageviews, and transactions___ for the ___first quarter of 2017___. ___January and March___ show notably ___higher engagement___, with ___March___ reaching the ___highest___ numbers across all metrics, particularly transactions (993). ___February___ reflects ___a slight dip___, possibly indicating ___seasonal or user behavior fluctuations___. Overall, this data effectively highlights monthly trends in user activity and transaction volume.
 ### Bounce rate per traffic source in July 2017
 #### Syntax
