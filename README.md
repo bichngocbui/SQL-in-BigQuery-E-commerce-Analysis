@@ -247,7 +247,7 @@ from product_data;
 #### Result 
 ![image](https://github.com/user-attachments/assets/263d5f22-1e5f-4c15-a1c4-c5f0b74c49cd)
 
-The data shows the ___performance metrics for product engagement___ from ___January to March 2017___. Overall, there is a ___positive trend___ in both the ___add-to-cart rate___ and ___purchase rate___ over the three months, with ___March___ showing the ___highest__ values at 37.29% and 12.64%, respectively. This indicates ___increasing customer interest and conversion effectiveness___. Notably, ____the number of product views fluctuates___, suggesting that ____marketing efforts___ or ___seasonal factors___ may influence customer engagement.
+The data shows the ___performance metrics for product engagement___ from ___January to March 2017___. Overall, there is a ___positive trend___ in both the ___add-to-cart rate___ and ___purchase rate___ over the three months, with ___March___ showing the ___highest__ values at 37.29% and 12.64%, respectively. This indicates ___increasing customer interest and conversion effectiveness___. Notably, ___the number of product views fluctuates___, suggesting that ___marketing efforts___ or ___seasonal factors___ may influence customer engagement.
 ## Conclusion
 This project has provided valuable insights into consumer behavior in the e-commerce landscape through data analysis using Google Analytics on BigQuery. Key findings include:
 - User Engagement: A noticeable increase in page views and transactions, particularly in March 2017, suggests improved user engagement. Ongoing optimization of marketing channels is essential.
