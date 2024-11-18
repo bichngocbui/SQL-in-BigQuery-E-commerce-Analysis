@@ -63,7 +63,7 @@ ORDER BY month;
 | 201702  | 62192  | 233373    | 733         |
 | 201703  | 69931  | 259522    | 993         |
 
-This table provides a clear summary of total visits, pageviews, and transactions for the first quarter of 2017. January and March show notably higher engagement, with March reaching the highest numbers across all metrics, particularly transactions (993). February reflects a slight dip, possibly indicating seasonal or user behavior fluctuations. Overall, this data effectively highlights monthly trends in user activity and transaction volume.
+This table provides a clear summary of total visits, pageviews, and transactions for the ___first quarter of 2017___. ___January and March___ show notably ___higher engagement___, with ___March___ reaching the ___highest___ numbers across all metrics, particularly transactions (993). ___February__ reflects ___a slight dip___, possibly indicating seasonal or user behavior fluctuations. Overall, this data effectively highlights monthly trends in user activity and transaction volume.
 ### Bounce rate per traffic source in July 2017
 #### Syntax
 ```sql 
