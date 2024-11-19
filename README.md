@@ -40,7 +40,6 @@ Key data access patterns include:
 The project leverages BigQuery's powerful features including:
 - Complex data structures handling through UNNEST operations
 - Advanced SQL aggregations and window functions
-- Cohort analysis implementation
 - Custom metrics calculations (bounce rates, conversion rates, etc.)
 ## Exploring the dataset 
 ### Query 1: Calculate total visit, pageview, transaction for Jan, Feb and March 2017
